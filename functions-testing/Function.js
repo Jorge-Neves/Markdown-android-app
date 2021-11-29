@@ -1,3 +1,9 @@
+/* Basic Markdown Syntax */
+
+
+
+/*Headings*/
+
 function convertIntoHeading (input, number) {
     let levelOne = "#";
     let levelTwo = "##";
@@ -43,6 +49,8 @@ console.log(convertIntoHeading("Tile", 6))
 
 
 
+/*Bold*/
+
 function convertIntoBold (input) {
     let Bold = "**";
 
@@ -57,6 +65,8 @@ console.log(convertIntoBold("Bold Text"))
 
 
 
+/*Italic*/
+
 function convertIntoItalic (input) {
     let Italic = "*";
 
@@ -69,6 +79,10 @@ function convertIntoItalic (input) {
 
 console.log(convertIntoItalicBold("Italic Text"))
 
+
+
+/*Italic and Bold*/
+
 function convertIntoItalicBold (input) {
     let ItalicBold = "***";
 
@@ -80,3 +94,52 @@ function convertIntoItalicBold (input) {
 };
 
 console.log(convertIntoItalicBold("Italic and Bold Text"))
+
+
+
+/* Blockquote */
+
+
+
+
+
+/* Lists */
+
+/* Ordered Lists */
+
+
+/* Unordered Lists */
+
+/* Code */
+
+/* Code Block */
+
+/* Links */
+
+/* Images */
+
+/* Linking Images */
+
+
+
+
+
+
+
+/* Extended Markdown Syntax */
+
+
+
+
+
+
+
+
+/* Community Made Custom Repos */
+
+
+
+
+
+
+
