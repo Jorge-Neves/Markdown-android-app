@@ -40,12 +40,12 @@ function convertIntoHeading (input, number) {
     return result;
 };
 
-console.log(convertIntoHeading("Tile", 4))
-console.log(convertIntoHeading("Tile", 2))
-console.log(convertIntoHeading("Tile", 3))
-console.log(convertIntoHeading("Tile", 1))
-console.log(convertIntoHeading("Tile", 5))
-console.log(convertIntoHeading("Tile", 6))
+console.log(convertIntoHeading("Title", 4))
+console.log(convertIntoHeading("Title", 2))
+console.log(convertIntoHeading("Title", 3))
+console.log(convertIntoHeading("Title", 1))
+console.log(convertIntoHeading("Title", 5))
+console.log(convertIntoHeading("Title", 6))
 
 
 
@@ -99,24 +99,57 @@ console.log(convertIntoItalicBold("Italic and Bold Text"))
 
 /* Blockquote */
 
+function convertIntoBlockquote (input) {
+    let quoteLength = input.length;
+    let blockQuote = ">"
+    let result = ""; 
 
+    if(quoteLength >  80 ) {
+        result = blockQuote.concat(" ", input)
+    } else {
+        result = blockQuote.concat(" ", input)
+    }
+    
+    return result
+}
 
 
 
 /* Lists */
 
+
+
+
 /* Ordered Lists */
+
+
+
 
 
 /* Unordered Lists */
 
+
+
+
 /* Code */
+
+
+
 
 /* Code Block */
 
+
+
+
 /* Links */
 
+
+
+
 /* Images */
+
+
+
 
 /* Linking Images */
 
